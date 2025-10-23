@@ -23,7 +23,6 @@ error_reporting(0);
 	$user 	= 'root';  // username server
 	$pass 	= ''; // password server, kalau pakai xampp kosongin saja
 	$dbname = 'db_poskasir'; // nama database anda
-	
 	try{
 		$config = new PDO("mysql:host=$host;dbname=$dbname;", $user,$pass);
 		//echo 'sukses';
